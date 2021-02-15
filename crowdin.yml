@@ -1,0 +1,6 @@
+---
+files:
+  -
+    source: "/public/metadata/messages/pt-BR.json"
+    translation: "/public/metadata/messages/%locale%.json"
+    type: "json"

@@ -1,0 +1,9 @@
+## Sobre
+
+Pushnews é um conjunto de soluções que simplificam a forma como você fideliza o seu público, aumentando o tráfego, o engajamento e leads.
+
+## Funcionalidades
+
+- Push Notifications
+- Push OnSite
+- Push Mail

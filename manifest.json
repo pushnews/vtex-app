@@ -1,0 +1,47 @@
+{
+  "name": "pushnews",
+  "vendor": "pushnewsbr",
+  "version": "0.1.0",
+  "title": "Pushnews",
+  "description": "Boost your sales with Push Notifications",
+  "billingOptions": {
+    "termsURL": "https://app.pushnews.eu/terms-and-conditions?lang=br",
+    "support": {
+      "url": "https://ajuda.pushnews.com.br/"
+    },
+    "free": true,
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ]
+  },
+  "categories": [],
+  "dependencies": {},
+  "builders": {
+    "node": "6.x",
+    "docs": "0.x",
+    "pixel": "0.x"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    }
+  ],
+  "settingsSchema": {
+    "title": "Pushnews",
+    "type": "object",
+    "properties": {
+      "appId": {
+        "title": "Site ID",
+        "type": "string",
+        "default": "",
+        "description": "Enter the Site ID (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)"
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

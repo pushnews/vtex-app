@@ -1,0 +1,14 @@
+{
+  "name": "Pushnews",
+  "headline": "Boost your sales with Pushnews' solutions.",
+  "overview": "Pushnews is a set of solutions that simplify the way you retain your audience, increasing traffic, engagement and leads.",
+  "features": [
+    "Push Notifications",
+    "Push OnSite",
+    "Push Mail"
+  ],
+  "websiteURL": "https://www.pushnews.com.br/",
+  "support": {
+    "url": "https://ajuda.pushnews.com.br/support/home"
+  }
+}
