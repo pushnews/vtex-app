@@ -1,4 +1,6 @@
 {
+  "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
     "co-body": "^6.0.0",
     "ramda": "^0.25.0"
