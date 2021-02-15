@@ -1,11 +1,12 @@
 {
   "name": "Pushnews",
   "headline": "Boost your sales with Pushnews' solutions.",
-  "overview": "Pushnews is a set of solutions that simplify the way you retain your audience, increasing traffic, engagement and leads.",
+  "overview": "Pushnews is a set of marketing solutions that have a direct impact pm your store's sales, creating better communication channels with your clients.",
   "features": [
-    "Push Notifications",
-    "Push OnSite",
-    "Push Mail"
+    "Unlimited Push Notifications",
+    "Cart recovery Push Notifications",
+    "Deliver OnSite messages with no user opt-in",
+    "Capture visitors email addresses"
   ],
   "websiteURL": "https://www.pushnews.com.br/",
   "support": {

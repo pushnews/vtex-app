@@ -1,0 +1,10 @@
+## Sobre
+
+Pushnews es un conjunto de soluciones de marketing que impactan directamente las ventas de su tienda, creando canales de comunicación instantánea con su cliente.
+
+## Funcionalidades
+
+- Notificaciones Push Ilimitadas
+- Recuperación del abandono del carrito con Notificaciones Push
+- Mensajes OnSite sem necessidade de optin
+- Formularios de suscripción
