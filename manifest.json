@@ -7,6 +7,7 @@
   "billingOptions": {
     "termsURL": "https://app.pushnews.eu/terms-and-conditions?lang=br",
     "support": {
+      "email": "support@pushnews.eu",
       "url": "https://ajuda.pushnews.com.br/"
     },
     "free": true,
