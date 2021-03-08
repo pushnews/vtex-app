@@ -27,10 +27,7 @@ const clients: ClientsConfig = {
     // This key will be merged with the default options and add this cache to our Status client.
     pushnewsSDKWorker: {
       memoryCache,
-    },
-    pushnewsSDKUpdaterWorker: {
-      memoryCache,
-    },
+    }
   },
 }
 
@@ -47,9 +44,6 @@ export default new Service({
   clients,
   routes: {
     pushnewsSDKWorker: method({
-      GET: [worker],
-    }),
-    pushnewsSDKUpdaterWorker: method({
       GET: [worker],
     }),
   },

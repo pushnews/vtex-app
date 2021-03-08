@@ -9,10 +9,6 @@
     "pushnewsSDKWorker": {
       "path": "/pushnews-sw.js",
       "public": true
-    },
-    "pushnewsSDKUpdaterWorker": {
-      "path": "/pushnews-sw.js",
-      "public": true
     }
   }
 }
