@@ -1,7 +1,7 @@
 {
   "name": "pushnews",
   "vendor": "pushnewsbr",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0",
   "title": "Pushnews",
   "description": "Boost your sales with Push Notifications",
   "billingOptions": {
