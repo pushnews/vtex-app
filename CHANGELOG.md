@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.0.0] - 2022-06-03
 
-## [1.0.0] - 2022-06-03
 ### Added
+
 - Service Worker Builder compatibility
 
 ## [0.3.0] - 2021-03-08
