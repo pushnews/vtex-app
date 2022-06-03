@@ -2,6 +2,8 @@
 
 The [Pushnews](https://pushnews.eu) App provides web Push Potifications, Push OnSite and other tools to engage customers and boost sales.
 
+![](https://i.imgur.com/Ik33Xxv.png)
+
 ## Installing
 
 ### Installation method #1: Using VTEX App Store
