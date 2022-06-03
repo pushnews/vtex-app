@@ -1,27 +1,26 @@
 {
   "name": "pushnews",
   "vendor": "pushnewsbr",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "title": "Pushnews",
   "description": "Boost your sales with Push Notifications",
   "billingOptions": {
-    "termsURL": "https://app.pushnews.eu/terms-and-conditions?lang=br",
+    "termsURL": "https://app.pushnews.eu/terms-and-conditions",
     "support": {
       "email": "support@pushnews.eu",
-      "url": "https://ajuda.pushnews.com.br/"
+      "url": "https://help.pushnews.eu/"
     },
     "free": true,
     "type": "free",
-    "availableCountries": [
-      "*"
-    ]
+    "availableCountries": ["*"]
   },
   "categories": [],
   "dependencies": {},
   "builders": {
     "node": "6.x",
     "docs": "0.x",
-    "pixel": "0.x"
+    "pixel": "0.x",
+    "service-worker": "0.x"
   },
   "credentialType": "absolute",
   "policies": [
