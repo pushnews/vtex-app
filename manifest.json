@@ -12,25 +12,20 @@
     },
     "free": true,
     "type": "free",
-    "availableCountries": ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
-  "categories": [],
-  "dependencies": {},
   "builders": {
-    "node": "6.x",
-    "docs": "0.x",
+    "react": "3.x",
+    "store": "0.x",
     "pixel": "0.x",
+    "docs": "0.x",
     "service-worker": "0.x"
   },
-  "credentialType": "absolute",
-  "policies": [
-    {
-      "name": "colossus-fire-event"
-    },
-    {
-      "name": "colossus-write-logs"
-    }
-  ],
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x"
+  },
   "settingsSchema": {
     "title": "Pushnews",
     "type": "object",

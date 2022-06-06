@@ -13,7 +13,8 @@
     "@vtex/api": "6.45.12",
     "@vtex/test-tools": "^3.4.3",
     "@vtex/tsconfig": "^0.6.0",
-    "typescript": "3.9.7"
+    "typescript": "3.9.7",
+    "vtex.pixel-interfaces": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.pixel-interfaces@1.1.1/public/_types/react"
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty"

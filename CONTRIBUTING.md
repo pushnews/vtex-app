@@ -11,7 +11,6 @@ If you'd like to contribute to this Vtex App here are a few tips.
 - perform the changes
 - test test test
 
-
 ### Test and Release
 
 **Important**: the `vtex` commands will take care of the versioning so there's no need to create a new version entry on [CHANGELOG.md](https://github.com/pushnews/vtex-app/blob/main/CHANGELOG.md) or edit the version number on [manifest.json](https://github.com/pushnews/vtex-app/blob/main/manifest.json).
@@ -27,3 +26,10 @@ If you'd like to contribute to this Vtex App here are a few tips.
 
 - `vtex plugins add submit` 
 - `vtex submit`
+
+---
+
+Relevant links
+
+- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-preparing-your-app-distribution 
+- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-submitting-your-app-in-the-vtex-app-store 
