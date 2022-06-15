@@ -1,1 +1,11 @@
-<script src="//cdn.pn.vg/sites/{{settings.appId}}.js" async></script>
+<script>
+  (function () {
+    var appId = "{{settings.appId}}";
+    if (appId) {
+      var s = document.createElement("script");
+      s.src = "//cdn.pn.vg/sites/" + appId + ".js";
+      s.async = true;
+      document.head.appendChild(s);
+    }
+  })()
+</script>
