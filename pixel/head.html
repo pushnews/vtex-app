@@ -1,9 +1,8 @@
 <script>
   (function () {
-    var appId = "{{settings.appId}}";
-    if (appId) {
+    if ("{{settings.appId}}") {
       var s = document.createElement("script");
-      s.src = "//cdn.pn.vg/sites/" + appId + ".js";
+      s.src = "https://cdn.pn.vg/sites/{{settings.appId}}.js";
       s.async = true;
       document.head.appendChild(s);
     }
