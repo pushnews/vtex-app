@@ -7,7 +7,14 @@ window.IlabsPush = window.IlabsPush || []
 export function handleEvents(e: PixelMessage) {
   switch (e.data.eventName) {
     case 'vtex:addToCart': {
-      window.IlabsPush.push(["ecommerce.itemAddedToCart"])
+      let product = e.data.items[0] ?? {};
+      window.IlabsPush.push(["ecommerce.itemAddedToCart"], {
+        context: {
+          name: product.name ?? '',
+          imageUrl: product.imageUrl ?? '',
+          url: window.location.href,
+        }
+      })
       break
     }
     case 'vtex:pageView': {
