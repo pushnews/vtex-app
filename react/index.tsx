@@ -8,13 +8,13 @@ export function handleEvents(e: PixelMessage) {
   switch (e.data.eventName) {
     case 'vtex:addToCart': {
       let product = e.data.items[0] ?? {};
-      window.IlabsPush.push(["ecommerce.itemAddedToCart"], {
+      window.IlabsPush.push(["ecommerce.itemAddedToCart", {
         context: {
           name: product.name ?? '',
           imageUrl: product.imageUrl ?? '',
           url: window.location.href,
         }
-      })
+      }])
       break
     }
     case 'vtex:pageView': {
