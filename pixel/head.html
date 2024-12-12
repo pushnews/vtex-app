@@ -2,7 +2,7 @@
   (function () {
     if ("{{settings.appId}}") {
       var s = document.createElement("script");
-      s.src = "https://cdn.pn.vg/sites/{{settings.appId}}.js";
+      s.src = "https://cdn.pn.vg/push/pushnews-launcher.js?appId={{settings.appId}}";
       s.async = true;
       document.head.appendChild(s);
     }
