@@ -22,14 +22,24 @@ If you'd like to contribute to this Vtex App here are a few tips.
   - `vtex use master --production`
   - `vtex install pushnewsbr.pushnews@1.0.0`
 
+#### Simulating a payment
+
+Make sure you have setup a "Test Connector" Visa payment under Store Settings > Payment > Settings > Payment Conditions > Visa.
+
+Now you can use a test credit card number to simulate a payment:
+
+- Number: 4111 1111 1111 1111
+- Expiration date: Any future date
+- CVV: 123
+
 ### Submit for review
 
-- `vtex plugins add submit` 
+- `vtex plugins add submit`
 - `vtex submit`
 
 ---
 
 Relevant links
 
-- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-preparing-your-app-distribution 
-- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-submitting-your-app-in-the-vtex-app-store 
+- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-preparing-your-app-distribution
+- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-submitting-your-app-in-the-vtex-app-store
