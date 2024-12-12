@@ -1,7 +1,7 @@
 {
   "name": "pushnews",
   "vendor": "pushnewsbr",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "title": "Pushnews",
   "description": "Boost your sales with Push Notifications",
   "billingOptions": {
@@ -12,9 +12,7 @@
     },
     "free": true,
     "type": "free",
-    "availableCountries": [
-      "*"
-    ]
+    "availableCountries": ["*"]
   },
   "builders": {
     "react": "3.x",
